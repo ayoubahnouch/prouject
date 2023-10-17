@@ -1,0 +1,265 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+nav{
+    height: 600px;
+    background: url(./image/windows-Wzn5IgxXWKo-unsplash\ 1.png);
+   
+}
+
+.navbark{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    
+
+}
+.badr{
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 250px; 
+}
+.ami{
+   margin-left: 50px;
+}
+.logo{
+    margin-left: 30px;
+    font-weight: bold;
+}
+li{
+    list-style: none;
+    margin-left: 20px;
+    color: #fff;
+}
+ul{
+    display: flex;
+    margin-right: 20px;
+}
+.container{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    transform: translateY(50px);
+    padding: 20px;
+    margin-top: 180px;
+    margin-left: -10px;
+}
+
+.container h1{
+    color: #fff;
+}
+
+.container p{
+    color: #fff;
+}
+button {
+    background-color: blue;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.widt {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .widt img {
+    max-width: 50%;
+    margin-top: 60px;
+   
+    margin-left: 680px;
+    width: 500px;
+    height: 400px;
+  }
+  
+ 
+  .fayl {
+    padding: 20px;
+    text-align: left;
+    text-align: top;
+    margin-left: 50px;
+   
+    margin-top: -400px;
+  }
+  
+  .min h1 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .min p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+  }
+
+  .min a {
+    display: inline-block;
+    text-decoration: none;
+   
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+  }
+  .max {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .max img {
+    max-width: 50%;
+    margin-top: 180px;
+   
+    margin-left: -700px;
+    width: 500px;
+    height: 400px;
+  }
+  
+  .bon {
+    padding: 20px;
+    text-align: left;
+    text-align: top;
+    margin-left: 800px;
+   margin-right: -6px;
+   margin-top: -300px;
+
+  }
+  
+
+  
+  .card {
+    width: 360px;
+    background: white;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin: 10px; /* Adjust the margin as needed */
+  }
+  
+  .icons {
+    display: flex;
+  }
+  
+  .icons svg {
+    /* Your styles for the SVG icons */
+    width: 33px;
+    height: 32px;
+    fill: #FFBA79;
+    stroke: #FFBA79;
+    stroke-linejoin: round;
+    margin-right: 10px; /* Adjust the spacing between icons */
+  }
+  
+  p {
+    /* Your styles for the paragraph */
+    margin: 10px 0;
+  }
+  
+  .author-info {
+    display: flex;
+    align-items: center;
+  }
+  
+
+  
+
+  
+  .author-name {
+    font-size: 24px;
+    color: #000;
+  }
+  
+  .author-title {
+    font-size: 14px;
+    color: #7676B2;
+  }
+  .icons{
+    display: flex;
+  }
+  .star {
+    width: 40px;
+    height: 40px;
+    background: gold;
+    clip-path: polygon(50% 0%, 61.8% 38.2%, 100% 38.2%, 68.2% 61.8%, 80% 100%, 50% 76.4%, 20% 100%, 31.8% 61.8%, 0% 38.2%, 38.2% 38.2%);
+    margin: 10px; 
+}
+.text-center{
+   margin-left: 500px;
+   margin-top:80px;
+}
+.fif{
+    width: 56px;
+  height: 56px;
+  border-radius: 50%; 
+  margin-right: 10px;
+}
+
+
+.swiper-container {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.swiper-slide {
+    width: 25%; /
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, auto));
+    gap:3.5rem;
+    background: #1a142f;
+    position: absolute;
+    left: 0;
+    right: 0;
+   
+}
+.logo{
+    font-size: 33px;
+    color: white;
+    font-weight: 700;
+}
+span{
+    color: rgb(38,38 ,230 );
+}
+.footer-content h4{
+    color: white;
+    margin-top: 1.5rem;
+    font-size: 20px;
+}
+.footer-content p{
+    color: #d6d6d6;
+    font: 16px;
+    line-height: 30px;
+    margin: 20px 0;
+}
+.footer-content li{
+    margin-bottom: 16px;
+}
+.footer-content li a{
+    display: block;
+    color: #d6d6d6;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all .40s ease;
+
+
+}
+.contact {
+  display: flex;
+  justify-content: center; /* Center the child elements horizontally */
+  align-items: center; /* Center the child elements vertically */
+}
+.card {
+  position: relative;
+  /* Other styles for the card element */
+}
+
+
